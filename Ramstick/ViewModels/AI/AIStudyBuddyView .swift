@@ -3,7 +3,7 @@
 
 import SwiftUI
 import Combine
-private let openRouterKey = ProcessInfo.processInfo.environment["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"] ?? ""
+private let openRouterKey = Bundle.main.object(forInfoDictionaryKey: "OPENROUTER_API_KEY") as? String
 private let openRouterModel = "google/gemma-3n-e4b-it:free"
 
 // MARK: - Message Model

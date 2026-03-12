@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B80DFA912F63232900B93EC2 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B80DF97D2F57884400B93EC2 /* Ramstick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramstick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80DFA902F63232900B93EC2 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		B80DF9742F57884400B93EC2 = {
 			isa = PBXGroup;
 			children = (
+				B80DFA902F63232900B93EC2 /* Secrets.xcconfig */,
 				B80DF97F2F57884400B93EC2 /* Ramstick */,
 				B80DF97E2F57884400B93EC2 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80DFA912F63232900B93EC2 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 /* Begin XCBuildConfiguration section */
 		B80DF9862F57884700B93EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -204,6 +212,7 @@
 		};
 		B80DF9872F57884700B93EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -261,6 +270,7 @@
 		};
 		B80DF9892F57884700B93EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +305,7 @@
 		};
 		B80DF98A2F57884700B93EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
