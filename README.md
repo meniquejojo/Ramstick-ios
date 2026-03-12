@@ -11,15 +11,9 @@ Built by a student at Huston-Tillotson University, Ramstick combines **AI assist
 
 ## App Preview
 
-Example:
-
-![AI Assistant](images/ai-screen.png)![Uploading IMG_3016.jpg…]()
-
-
-![Games Hub](images/games-screen.png)
-
-![Opportunities](images/opportunities-screen.png)
-
+|Onboarding Screen | AI Assistant | Games Hub | Trash Catcher |Daily Challenge|  Opportunities | 
+|---------------|-----------|---------------|---------------|-----------|---------------|
+| ![](images/Onboarding-screen.jpg) | ![](images/ai-assistant.jpg) | ![](images/games-hub.jpg) | ![](images/Trashcatcher.jpg)| ![](images/daily-challenge.jpg) |![](images/opportunities.jpg) |
 
 ---
 
