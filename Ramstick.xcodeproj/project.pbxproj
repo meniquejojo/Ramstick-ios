@@ -147,7 +147,8 @@
 /* Begin XCBuildConfiguration section */
 		B80DF9862F57884700B93EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
+			baseConfigurationReferenceAnchor = B80DF97F2F57884400B93EC2 /* Ramstick */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -212,7 +213,8 @@
 		};
 		B80DF9872F57884700B93EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
+			baseConfigurationReferenceAnchor = B80DF97F2F57884400B93EC2 /* Ramstick */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -270,7 +272,6 @@
 		};
 		B80DF9892F57884700B93EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,7 +306,6 @@
 		};
 		B80DF98A2F57884700B93EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B80DFA902F63232900B93EC2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
