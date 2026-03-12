@@ -1,1 +1,8 @@
 Secrets.xcconfig
+# Xcode user data
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# caches
+userCache.json
