@@ -952,7 +952,7 @@ struct OppContactRow: View {
 // MARK: - Opportunity AI Chat
 
 struct OppAIChatView: View {
-    private let openRouterKey = "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"
+    private let openRouterKey = ProcessInfo.processInfo.environment["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"] ?? ""
     @EnvironmentObject var appState: AppState
     @Environment(\.dismiss) var dismiss
     let opp: HTOpportunity
